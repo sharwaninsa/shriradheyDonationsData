@@ -1,0 +1,58 @@
+/* public/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.search-container {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchBar {
+    padding: 10px;
+    width: 300px;
+}
+
+#searchBtn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#searchBtn:hover {
+    background-color: #45a049;
+}
+
+#data-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.transaction.success {
+    background-color: #e7f9e7;
+}
+
+.transaction.failed {
+    background-color: #f9e7e7;
+}
